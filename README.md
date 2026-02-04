@@ -1,2 +1,2 @@
-# ritual-
+# ritualé-
 Wedding dresses for every religion on one platform
