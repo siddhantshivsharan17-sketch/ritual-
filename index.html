@@ -127,31 +127,64 @@
     Discover wedding attire across Hindu, Muslim, Christian, and Sikh traditions.
     Designed to celebrate love, culture, and timeless elegance.
   </p>
-</section>
-<section>
+  </section>
+  <section>
   <h2>Shop by Role</h2>
   <div class="cards">
-    <div class="card">
+    <a href="#" class="card">
       <h3>Bride</h3>
       <p>Elegant bridal wear across all traditions</p>
-    </div>
-    <div class="card">
+    </a>
+    <a href="#" class="card">
       <h3>Groom</h3>
       <p>Premium groom outfits for every ceremony</p>
-    </div>
-    <div class="card">
+    </a>
+    <a href="#" class="card">
       <h3>Bridesmaid</h3>
       <p>Graceful bridesmaid dresses for celebrations</p>
-    </div>
-    <div class="card">
+    </a>
+    <a href="#" class="card">
       <h3>Best Man</h3>
       <p>Classic tuxedos for the best man</p>
-    </div>
+    </a>
   </div>
 </section>
+
+<style>
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  color: inherit;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin: 10px 0 5px;
+  color: #b35f8c; /* soft luxury accent */
+  font-family: 'Georgia', serif;
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+</style>
 <footer>
   <p>Thank you for visiting our platform.</p>
-  <p>Celebrating love, traditions, and cultures — all in one place.</p>
+  <p>Celebrating love, traditions, and cultures all in one place.</p>
   <p><strong>Designed by Aimee Pavey</strong></p>
 </footer>
 
